@@ -4,7 +4,7 @@
 
 ### Install
 
-You can use `composer global require rry/phppoker` to install the game.
+You can use `composer global require rrylee/phppoker` to install the game.
 
 If you use **linux** or **osx**.
 
