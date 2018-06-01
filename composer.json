@@ -19,13 +19,19 @@
     },
     "require": {
         "symfony/console": "^3.0",
-        "fzaninotto/faker": "^1.5"
+        "fzaninotto/faker": "^1.5",
+        "illuminate/support": "~5.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^4.0"
     },
-    "minimum-stability": "dev",
     "bin": [
         "phppoker"
-    ]
+    ],
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
 }

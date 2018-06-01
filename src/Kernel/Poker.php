@@ -122,6 +122,6 @@ class Poker
      */
     public function levelToString($level)
     {
-        return $level[0] + '-' + implode('', $level[1]);
+        return $level[0] . '-' . implode('', $level[1]);
     }
 }
